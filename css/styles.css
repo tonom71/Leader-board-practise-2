@@ -1,0 +1,166 @@
+/* poppings google font */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+body{
+    font-family: 'Poppins', sans-serif;
+}
+/* Header er kaj suru */
+header{
+    display: flex;
+    background-color: #562EFF;
+    width: 100%
+    height:94px;   
+}
+.navicon{
+    width: 95px;
+    display: flex;
+    align-items: center;
+    margin-left: 285px;
+    justify-content: space-between;
+}
+.navicon img{
+    width: 40px;
+    height: 51px;
+    
+}
+.navicon h3{
+    color: white;
+    font-size: 20px;
+}
+.navbar{
+    margin-left: 900px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 300px;
+}
+.navbar a{
+    text-decoration: none;
+    color: white;
+}
+/* header er kaj sesh */
+
+/* main er kaj suru */
+main{
+    background-color:#E5E5E5;
+    height: 1200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.player-blog-course{
+    margin-top: 20px;
+}
+.player-blog {
+    width:900px ;
+    height: 720px;
+    background-color: white;
+    border-radius: 5px;
+}
+
+.top-player-details{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-row-gap: 30px;
+}
+.top-player h2{
+    padding: 25px;
+    color: #562EFF;
+}
+.player{
+    margin-left: 30px;
+    display: flex;
+    width:200px;
+    align-items: center;
+
+}
+.player img{
+    Width :56px;
+    Height:56px;
+}
+.player h3{
+    margin-left: 10px;
+}
+hr{
+    margin-top: 20px;
+    width: 80%;
+    border:1px solid #D1D1D1 ;
+}
+.top-blog-details{
+  display: flex;
+  flex-wrap: wrap; 
+  
+}
+.blog{
+    display: flex;
+    margin: 10px;
+}
+.top-blog h2{
+    padding: 20px;
+    color: #562EFF;
+}
+.blog-detail{
+    width: 240px;
+    margin-left: 10px;
+}
+.blog-detail h3{
+    margin-top: 5px;
+}
+.blog img{
+    width: 177px;
+    height: 117px;
+}
+.courses{
+    margin-top: 50px;
+    width:900px ;
+    height: 430px;
+    background-color: white; 
+    border-radius: 5px;
+}
+.my-course{
+    padding: 25px;
+    color: #562EFF;
+}
+.lates-courses{
+    display: flex;
+    justify-content: space-between;
+}
+.late-course{
+    margin: 20px;
+}
+.late-course p{
+    margin: 0px;
+    color:#ED6B4F ;
+}
+.late-course img{
+    width: 224px;
+    height: 104px;
+}
+.star-icon{
+    display: flex;
+}
+.course-details{
+    display: flex;
+    width: 250px;
+    align-items: center;
+    justify-content: space-between;
+}
+.fa-star{
+    color: #FFC014;
+}
+.fa-star.fa-shado{
+    color:  #AEAEAE;
+}
+.time{
+    display: flex;
+    align-items: center;
+    background: #FFE4E8;
+    border-radius: 14.6913px;
+    width: 75px;
+    justify-content: space-between;
+}
+.time p{
+    color: #FF4A60;
+}
+.fa-clock{
+    color: #FF4A60; 
+}
