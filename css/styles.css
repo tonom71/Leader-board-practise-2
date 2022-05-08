@@ -212,3 +212,48 @@ hr{
         align-items: center;
     }
 }
+
+/* ipad er jonno responsive */
+
+@media only screen and (min-width:669px) and (max-width:992px) {
+    .header{
+        width: 100%;
+        height: 30px;
+    }
+    .navicon{
+        margin-left: 20px;
+    }
+    .navbar{
+        margin-left: 50px;
+    }
+    main{
+        align-items: flex-start;
+    }
+    .player-blog{
+        width: 600px;
+        height: 1200px;
+    }
+    .top-player h2{
+        margin-left:5px;
+      margin-top: 20px;
+    }
+    .top-player-details{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+       
+    }
+    .player{
+        margin: 30px;
+        margin-left: 5px;
+        width:100px;
+    }
+    .courses{
+        height: 400px;
+    }
+    .lates-courses{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+    
+}
